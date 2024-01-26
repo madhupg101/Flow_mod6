@@ -1,14 +1,14 @@
 
 # NFT-flow
-This Cadence program implements the Non-Fungible Token standard for creating and managing NFTs. 
-This program allows users to mint new NFTs, deposit and withdraw NFTs, and transfer ownership of NFTs between users.
+This Cadence program implements the Non-Fungible Token standard for creating and managing the NFTs. 
+This program allows users to mint new NFTs, deposit and withdraw NFTs, and transfer ownership of NFTs between different users.
 
 ## Description
-These files contains a Cadence contract that demonstrates the creation and management of non-fungible tokens (NFTs) using the standard NonFungibleToken library in the Flow blockchain.
+These files contains a Cadence contract that demonstrates the creation and management of   Non-Fungible Tokens (NFTs) using the standard NonFungibleToken library in the Flow blockchain.
 The contract allows for the creation of NFTs with metadata such as name, favorite food, and lucky number. 
 It also includes functions for depositing, withdrawing, transferring, and borrowing NFTs with a given ID.
-The CryptoPoops contract implements the NonFungibleToken standard and defines a resource called NFT for the creation of NFTs with custom metadata.
-It also defines a Collection resource that allows for the management of a collection of NFTs owned by a given address.
+The CryptoPoops contract implements the NonFungibleToken standard and defines a resource named NFT for the creation of NFTs with custom metadata.
+It also defines a Collection resource that allows  the management of  collection of NFTs owned by a given address.
 The contract also includes a Minter resource for the creation of NFTs and minting them into a Collection.
 
 The CollectionPub interface defines the public functions that can be used to interact with the Collection resource,
@@ -18,7 +18,7 @@ and the createMinter function allows for the creation of a Minter resource for m
 
 The contract emits events for the initialization of the contract, 
 as well as for the deposit and withdrawal of NFTs. Overall, 
-this contract provides a simple implementation of NFTs and demonstrates the core functionality required for creating and managing them in a blockchain environment.
+this contract provides a simple implementation of NFTs and demonstrates the core functionality required for creating and managing NFTs in a blockchain environment.
 
 ## Requirements
 * Access to a Flow network node.
